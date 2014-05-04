@@ -1,5 +1,9 @@
 #!/bin/bash
 
+# Copyright 2004-2010 Internet Systems Consortium. All rights reserved.
+# Modifications by Python1320
+
+#TODO: Fixme
 WANNUM=2
 
 resolvconfprint() {
