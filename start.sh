@@ -1,6 +1,6 @@
 #!/bin/bash
 #set -e
-WANNUM=2
+WANNUM=${1:-2}
 
 echo Adding link wan${WANNUM}
 ip link add name wan${WANNUM}br type veth peer name wan${WANNUM}
